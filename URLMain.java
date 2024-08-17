@@ -6,7 +6,7 @@ public class URLMain {
     public static void main(String[] args) {
         try 
 {
-URL url = new URL("https://www.google.com/search?q=google&rlz=1C1ONGR_enIN1100IN1100&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg8MgYIAxBFGDwyBggEEEUYPDIGCAUQRRhBMgYIBhBFGEEyBggHEEUYQdIBCDI1NTVqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8");
+URL url = new URL("https://www.example.com/path/to/file.html?key=value#fragment");
          	System.out.println("Protocol: " + url.getProtocol());
         	 System.out.println("Host: " + url.getHost());
         	 System.out.println("Port: " + url.getPort());
